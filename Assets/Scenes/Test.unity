@@ -6520,7 +6520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4828333199973917657, guid: c9d90bcc712619f469ca506c3cd464b2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6467651778637545391, guid: c9d90bcc712619f469ca506c3cd464b2, type: 3}
       propertyPath: cider
@@ -11445,6 +11445,10 @@ PrefabInstance:
       propertyPath: openDoorButton
       value: 
       objectReference: {fileID: 1042188564}
+    - target: {fileID: 6527144172695364769, guid: 557cc2ebea23c8e479f1a02c91cededa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9053307901050701478, guid: 557cc2ebea23c8e479f1a02c91cededa, type: 3}
       propertyPath: m_Name
       value: Rat Grey

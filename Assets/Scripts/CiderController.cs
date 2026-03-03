@@ -101,6 +101,7 @@ public class CiderController : MonoBehaviour
         // Handle Batteries
         foreach (Collider hit in batteryHits)
         {
+            Debug.Log("battery detected");
             detectedCheese.Add(hit.transform);
             float dist = Vector3.Distance(transform.position, hit.transform.position);
             if (dist < closestDistance)
